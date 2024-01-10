@@ -1,0 +1,10 @@
+cidr_block          = "192.168.0.0/16"
+vpc_name            = "DEV-VPC-1"
+Owner               = "Saikirangoli"
+environment         = "Development"
+azs                 = ["eu-west-1a", "eu-west-1b", "eu-west-1c"]
+public_subnet_cidrs = ["192.168.1.0/24", "192.168.2.0/24", "192.168.3.0/24"]
+ami                 = "ami-0261755bbcb8c4a84"
+instance_type       = "t2.micro"
+key_name            = "LaptopKey"
+costcenter          = "808080"
